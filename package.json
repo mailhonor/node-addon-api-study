@@ -1,0 +1,15 @@
+{
+  "name": "node-addon-demo",
+  "version": "2.0.0",
+  "description": "Node.js Addons Demo",
+  "main": "test.js",
+  "private": true,
+  "dependencies": {
+    "node-addon-api": "^5.1.0",
+    "node-gyp": "^10.1.0"
+  },
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "test": "node test.js"
+  }
+}
